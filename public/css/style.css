@@ -1,8 +1,12 @@
 html{
     background-color: #E4E9FD;
-    background-image: -webkit-linear-gradient(65deg,#A683E3 50%,#E4E9FD 50%);
+    /* background-image: -webkit-linear-gradient(65deg,#A683E3 50%,#E4E9FD 50%); */
     min-height: 1000px;
     font-family:  'Helvetica neue';
+    background: #2ACEBF;
+background: -moz-linear-gradient(left, #2ACEBF 0%, #559EA4 50%, #1B91C5 100%);
+background: -webkit-linear-gradient(left, #2ACEBF 0%, #559EA4 50%, #1B91C5 100%);
+background: linear-gradient(to right, #2ACEBF 0%, #559EA4 50%, #1B91C5 100%);
     
     }
     
@@ -21,7 +25,8 @@ html{
     }
     
     #heading{
-        background-color: #A683E3;
+        /* background-color: #A683E3; */
+        background: #2ACEBF;
         text-align: center;
     }
     
@@ -38,7 +43,8 @@ html{
     
     input:checked+p{
         text-decoration: line-through;
-        text-decoration-color: #A683E3;
+        /* text-decoration-color: #A683E3; */
+        background: #2ACEBF;
     }
     input[type="checkbox"]{
         margin: 20px;
@@ -60,11 +66,12 @@ html{
         width: 50px;
         border-radius: 50%;
         border-color: transparent;
-        background-color: #A683E3;
+        /* background-color: #A683E3; */
         color:#fff;
         font-size: 30px;
         padding-bottom: 6px;
         border-width: 0;
+        background: #2ACEBF;
     }
     
     input[type="text"]{
@@ -80,7 +87,7 @@ html{
     
     input[type="text"]:focus{
            outline: none;
-           box-shadow: 0 -3px 0 0 #A683E3;
+           box-shadow: 0 -3px 0 0  #2ACEBF;;
     }
     
     ::placeholder{
